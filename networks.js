@@ -6,48 +6,48 @@ var hex = function(hex) {
 
 exports.livenet = {
   name: 'livenet',
-  magic: hex('fbc0b6db'),
-  addressVersion: 61,
-  privKeyVersion: 189,
+  magic: hex('fcc1b7dc'),
+  addressVersion: 28,
+  privKeyVersion: 156,
   P2SHVersion: 5,
   hkeyPublicVersion: 0x0488b21e,
   hkeyPrivateVersion: 0x0488ade4,
   genesisBlock: {
-    hash: hex('CCDEC174EBD4FA10314B3B9EF9CB8ADCF9AA87E57EC6AD0D0E3C3C5AD9E068B8'),
-    merkle_root: hex('FF79AF16A9FFEB1B826DE1EA7F24539A2FE3702FE987912B09072BC41DBC02B5'),
+    hash: hex('F1B4CDF03C86099A0758F1C018D1A10BF05AFAB436C92B93B42BB88970DE9821'),
+    merkle_root: hex('04C3AE72B7E099C2A3FE2862AB6280B09C8B1E4CD217237EBB2D0CACC20AAA68'),
     height: 0,
-    nonce: 222583475,
+    nonce: 1120954,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1390280400,
-    bits: 504365040
+    timestamp: 1382342087,
+    bits: 504365055
   },
   dnsSeeds: [
-    'seed.reddcoin.com'
+    'seed.cannacoin.cc'
   ],
-  defaultClientPort: 45444,
-  lastPoWBlock: 260799
+  defaultClientPort: 7142,
+  lastPoWBlock: 370000
 };
 
 exports.mainnet = exports.livenet;
 
 exports.testnet = {
   name: 'testnet',
-  magic: hex('fec3b9de'),
-  addressVersion: 111,
-  privKeyVersion: 239,
+  magic: hex('fcc1b7dc'),
+  addressVersion: 0x1C,
+  privKeyVersion: 0x9C,
   P2SHVersion: 196,
   hkeyPublicVersion: 0x043587cf,
   hkeyPrivateVersion: 0x04358394,
   genesisBlock: {
-    hash: hex('14D879BCBC6DB4A5F49B15AB710BD3F1DC1FF65361F10B3F6E58649C518DDB46'),
-    merkle_root: hex('FF79AF16A9FFEB1B826DE1EA7F24539A2FE3702FE987912B09072BC41DBC02B5'),
+    hash: hex('F1B4CDF03C86099A0758F1C018D1A10BF05AFAB436C92B93B42BB88970DE9821'),
+    merkle_root: hex('04C3AE72B7E099C2A3FE2862AB6280B09C8B1E4CD217237EBB2D0CACC20AAA68'),
     height: 0,
-    nonce: 1403777,
+    nonce: 1120954,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1399544585,
-    bits: 504365040
+    timestamp: 1382342087,
+    bits: 504365055,
   },
   dnsSeeds: [],
   defaultClientPort: 55444,

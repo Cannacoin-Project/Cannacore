@@ -1,18 +1,18 @@
 {
-  "name": "reddcore",
+  "name": "cannacore",
   "main": "browser/bundle.js",
   "version": "0.1.36",
-  "homepage": "https://github.com/reddcoin-project/reddcore",
+  "homepage": "https://github.com/cannacoin-project/cannacore",
   "authors": [
-    "Larry Ren (<ren@reddcoin.com>)"
+    "Josh Dellay (<josh@cannacoin.cc>)"
   ],
-  "description": "Reddcoin Core Library in Javascript",
+  "description": "Cannacoin Core Library in Javascript",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "reddcoin",
-    "reddcore",
+    "cannacoin",
+    "cannacore",
     "rdd",
     "bitcoin",
     "bitcore",

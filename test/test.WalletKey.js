@@ -58,7 +58,7 @@ describe('WalletKey', function() {
 
   it('should import priv key livenet / uncompressed @TODO', function() {
 
-    //since Reddcoin doesn't use uncompressed, we'll skip this for now.
+    //since Cannacoin doesn't use uncompressed, we'll skip this for now.
     //this is a WIF priv, compress flag = false
     //var priv = '5KMpLZExnGzeU3oC9qZnKBt7yejLUS8boPiWag33TMX2XEK2Ayc';
     //var s = new WalletKey();

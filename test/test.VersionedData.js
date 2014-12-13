@@ -23,7 +23,7 @@ describe('VersionedData', function() {
   it('should get correct version', function() {
     var vda = new VersionedData('RsMLLAQAJFAnHXM5z7ExWsLrd5B7foYk92');
     vda.version().should.equal(61);
-    //commenting out as reddcoin doesn't use multisig yet.
+    //commenting out as cannacoin doesn't use multisig yet.
     //var vdb = new VersionedData('3746djr32k2Lp23UUbdkCTQ6zhMJ7d8MD7');
     //vdb.version().should.equal(5);
   });
